@@ -9,9 +9,9 @@ Other header files such like `InitialSet.h` and `BulidTestPoint.h` are suitable 
 
 We hope this code may be helpful.
 ```
-                                 Jiuyang Liang
-                                 Ph.D candidate
-                                 School of Mathematical Science and Institute of Natural Science
-                                 Shang Hai Jiao Tong University
-                                 [Homepage in Github](https://github.com/LiangJiuyang/)
+                           Jiuyang Liang
+                           Ph.D candidate
+                           School of Mathematical Science and Institute of Natural Science
+                           Shang Hai Jiao Tong University
+                           [Homepage in Github](https://github.com/LiangJiuyang/)
 ```
