@@ -9,7 +9,6 @@ Other header files such like `InitialSet.h` and `BulidTestPoint.h` are suitable 
 
 We hope this code may be helpful.
 ```
-
                                               Jiuyang Liang
                                               Ph.D candidate
                                               School of Mathematical Science and Institute of Natural Science
