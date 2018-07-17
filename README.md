@@ -1,8 +1,10 @@
 # Harmonic-Surface-Mapping-Algorithm-on-GPU
-Harmonic Surface Mapping Algorithm, described in paper [Harmonic surface mapping algorithm for fast electrostatic sums](http://xueshu.baidu.com/swd=paperuri%3A%28b6033f4f4dc26ba2ec88d6860eb5d6d1%29&filter=sc_long_sign&tn=SE_xueshusource_2kduw22v&sc_vurl=http%3A%2F%2Farxiv.org%2Fpdf%2F1806.04801.pdf&ie=utf-8&sc_us=12003589625995823630) is an efficient implementation for electrostatic pairwise sums of an infinite number of images by using Fast Multiple method(FMM) or graphics processing units (GPU). 
+Harmonic Surface Mapping Algorithm, described in paper [Harmonic surface mapping algorithm for fast electrostatic sums](https://arxiv.org/abs/1806.04801) is an efficient implementation for electrostatic pairwise sums of an infinite number of images by using Fast Multiple method(FMM) or graphics processing units (GPU). Numerical calculations of the Madelung constant, electrostatic energy of ions in a metallic cavity, and the time performance for large-scale systems show that the HSMA is accurate and fast, and thus is attractive for many applications.
 
 Main file 'GPUmain.cu' is in CUDA programming language and is available on NVIDIA Tesla P100 and other suitable graphics cards.
 
-Another main File 'FMMmain.cpp'      we only present the kernel code of this method in this CPU version. 
+Another main File 'FMMmain.cpp' is in c++ programming language. Since FMM code is not an open source, we only present the kernel code of this method in this CPU version. 
+
+Other header files such like 'InitialSet.h' and 'BulidTestPoint.h' are suitable for both two main files. 
 
 We hope this code may be helpful.
