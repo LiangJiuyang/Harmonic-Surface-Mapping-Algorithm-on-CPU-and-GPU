@@ -1,5 +1,5 @@
 #include"CalculateNearFieldPotential.h"
-double F = 144.0;//Number of projection points on Omega_b(with Radius Rb set in "Éè¶¨Íâ²ãÇò²¢¸ø³öËùÓĞ³¡Ô´µãµÄ×ø±ê.h")
+double F = 144.0;//Number of projection points on Omega_b(with Radius Rb set in "è®¾å®šå¤–å±‚çƒå¹¶ç»™å‡ºæ‰€æœ‰åœºæºç‚¹çš„åæ ‡.h")
 double Fp = 89.0;
 int Np = F * 2.0 + 2.0;
 double zz,zt,zs,phia,phib;
@@ -36,7 +36,7 @@ public:
 	ProjectPointSum &operator=(const ProjectPointSum &P);//operator overloading(exchange position only)
 }Project;
 
-//ÌÀÆÕÉ­ÇòÃæµã·Ö²¼
+//Thompson's distribution on the surface of sphere
 /*
 class ProjectPointSum
 {
