@@ -1,5 +1,5 @@
 #include"CalculateNearFieldPotential.h"
-double F = 144.0;//Number of projection points on Omega_b(with Radius Rb set in "设定外层球并给出所有场源点的坐标.h")
+double F = 144.0;//Number of projection points on Omega_b(with Radius Rb set in `OutSphereAndSources.h`)
 double Fp = 89.0;
 int Np = F * 2.0 + 2.0;
 double zz,zt,zs,phia,phib;
