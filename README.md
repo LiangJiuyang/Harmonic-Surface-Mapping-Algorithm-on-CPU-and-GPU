@@ -5,7 +5,7 @@ Main file `GPUmain.cu` is in CUDA programming language and is available on NVIDI
 
 Another main File `FMMmain.cpp` is in C++ programming language and accelerated by OpenMp. Since FMM code is not an open source, we only present the kernel code of this method in this CPU version. 
 
-Other header files such like `InitialSet.h` and `BulidTestPoint.h` are suitable for both two main files. 
+Other header files such like `InitialSet.h` and `BulidTestPoint.h` are designed for both two main files. 
 
 We hope this code may be helpful.
 ```
