@@ -3,7 +3,7 @@ Harmonic Surface Mapping Algorithm, described in paper [Harmonic surface mapping
 
 Main file `GPUmain.cu` is in CUDA programming language and is available on NVIDIA Tesla P100 and other suitable graphics cards.
 
-Another main File `FMMmain.cpp` is in C++ programming language and accelerated by OpenMp. Since FMM code is not an open source, we only present the kernel code of this method in this CPU version. We leave the FMM program interface here and one can contact Pro. Greengard to obtain the FMM code or replace them as your own FMM code. 
+Another main File `FMMmain.cpp` is in C++ programming language and accelerated by OpenMp. Since FMM code is not an open source, we only present the kernel code of this method in this CPU version. 
 
 Other header files such like `InitialSet.h` and `BulidTestPoint.h` are designed for both two main files. 
 
