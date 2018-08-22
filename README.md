@@ -7,6 +7,8 @@ Another main File `FMMmain.cpp` is in C++ programming language and accelerated b
 
 Other header files such like `InitialSet.h` and `BulidTestPoint.h` are designed for both two main files. 
 
+The authors thank Mr.Joey Wang from the NVIDIA for the guide on the GPU implementation. 
+
 We hope this code may be helpful.
 ```
                            Jiuyang Liang
